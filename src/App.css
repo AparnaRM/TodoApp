@@ -1,0 +1,40 @@
+#title{
+  text-align: center;
+}
+body{
+  background: rgb(2, 28, 39);
+}
+.App{
+  background-color: rgba(26, 181, 114, 0.481);
+  height: 600px;
+  width:500px;
+  margin: 50px auto;
+  border-style: solid;
+  border-radius: 2rem;
+}
+#todo-list input{
+  background-color: rgb(2, 28, 39);
+  color: white;
+  border: 0px;
+  width:15rem;
+  height: 2.2rem;
+  margin:3rem;
+  padding: 0 20px;
+  border-radius: 10px;
+  font-size: 15px;
+}
+#todo-list input::placeholder{
+  color: rgb(191, 173, 173);
+}
+
+#todo-list button{
+  width:4rem;
+  height: 2.2rem;
+  padding: 0 10px;
+  border-radius:10px;
+  border: 0;
+  background-color:rgb(2, 28, 39); ;
+  color: white;
+  font-size: 15px;
+
+}
